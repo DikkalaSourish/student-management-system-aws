@@ -7,8 +7,6 @@ A serverless **Student Management System** developed using **HTML, CSS, JavaScri
 ## 🚀 Live Demo
 
 **Website:**  
-(Add your Amazon S3 website URL here)
-
 Live Demo Link :-
 http://student-management-system-sourish.s3-website.ap-south-1.amazonaws.com
 
