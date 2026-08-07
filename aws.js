@@ -1,0 +1,1 @@
+const API_URL = "https://tzahfmv9e3.execute-api.ap-south-1.amazonaws.com/prod/students";

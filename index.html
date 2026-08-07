@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>Student Management System</h1>
+
+<input type="text" id="studentId" placeholder="Student ID">
+
+<input type="text" id="name" placeholder="Student Name">
+
+<input type="email" id="email" placeholder="Email">
+
+<input type="text" id="phone" placeholder="Phone">
+
+<input type="text" id="department" placeholder="Department">
+
+<input type="number" id="year" placeholder="Year">
+
+<input type="number" id="cgpa" placeholder="CGPA">
+
+<input type="text" id="address" placeholder="Address">
+
+<div class="buttons">
+
+<button onclick="addStudent()">Add Student</button>
+
+<button onclick="loadStudents()">View All</button>
+
+</div>
+
+<table>
+
+<thead>
+
+<tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Department</th>
+    <th>Year</th>
+    <th>CGPA</th>
+    <th>Address</th>
+    <th>Action</th>
+</tr>
+
+</thead>
+
+<tbody id="studentTable">
+    
+
+</tbody>
+
+</table>
+
+</div>
+
+<script src="aws.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
